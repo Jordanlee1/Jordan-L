@@ -1,0 +1,152 @@
+body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+.orange {
+	background-color: ffa500;
+	height: 100%;
+	width: 20%;
+	display: block;
+}
+
+.pink {
+	background-color: #ff6ec7;
+	height: 100%;
+	width: 70%;
+	display: block;
+}
+
+.yellow {
+	background-color: #ffcb15;
+	height: calc(100%/3);
+	width: 100%;
+	display: flex;
+}
+
+.blue {
+	background-color: #3895d3;
+	height: calc(100%*2/3);
+	width: 100%;
+	display: flex;
+}
+
+.light-green {
+	background-color: #00ff00;
+}
+
+.dark-blue {
+	background-color: #00008b;
+}
+
+.dark-green {
+	background-color: #006400; 
+}
+
+.goku-orange {
+	background-color: #FFA500; 
+}
+
+.red {
+	background-color: #FF0000; 
+}
+
+.yellow {
+	background-color: #FFD300; 
+}
+
+.aqua-blue {
+	background-color: #00FFFF; 
+}
+
+.box {
+	height: calc(100%/3);
+	width: 100%;
+	display: block;
+	align-items: bottom;
+}
+
+.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contain-img {
+	max-height: 90%;
+	max-width: 70%;
+}
+
+.contain-center-img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.pulse:hover{
+	animation: pulse 2s infinite;
+	cursor: pointer;
+}
+
+.pulse:active{
+	transform: scale(0.9);
+}
+@keyframes pulse {
+	0% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}	
+
+
+@media only screen and (max-width: 700px) {
+	
+	 body {
+	 height: 100%;
+	 width: 100%;
+	 display: block;}
+	 
+		 .orange {
+		 background-color: ffa500;
+		 height: 18%;
+		 width: 100%;
+		 display: flex;}
+		 
+		 .pink {
+		 background-color: #ff6ec7;
+		 height: 70%;
+		 width: 100%;
+		 display: block;}
+		 
+	     .yellow {
+		 background-color: #ffcb15;
+		 height: calc(100%/3);
+		 width: 100%;
+		 display: flex;}
+		 
+		 .blue {
+		 background-color: #3895d3;
+		 height: calc(100%*2/3);
+		 width: 100%;
+		 display: flex;}
+		 
+		 .green {
+		 background-color: #54b948;}
+		 
+		 .box {
+	     height: 100%;
+	     width: 100%;
+	     display: block;}
+		 
+		 .center-img {
+		 display: flex;
+		 align-items: center;
+		 justify-content: center;}
+		 
+		 .contain-img {
+	     max-height: 100%;
+	     max-width: 10
+		 0%;}
+     }

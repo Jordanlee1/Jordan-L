@@ -1,0 +1,50 @@
+<html>
+
+	<head>
+		<!-- important information the computer needs -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SuperFan</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<body>
+		<div class="orange">
+			<div class="light-green box center-img">
+				<img class="contain-img pulse" src="images/samus.png" onclick="changeImage1()" id="image1" height="300" width="300">
+			</div>
+			<div class="dark-blue box center-img">
+				<img class="contain-img pulse" src="images/optimusprime.png" height="300" onclick="changeImage2()" id="image2" width="200">  
+			</div>
+			<div class="goku-orange center-img">
+				<img class="contain-img pulse" src="images/goku.png" onclick="changeImage3()" id="image3" height="300" width="300">
+			</div>
+		 </div>
+		 <div class="pink">
+			<div class="center-img blue">
+				<img class="contain-center-img" id="main-img" height="800">
+			</div>
+			<div class="yellow" id="bio">
+			</div>
+		</div>
+		<div class="orange">
+			<div class="red box center-img">
+				<img class="contain-img pulse" src="images/ironman.png" onclick="changeImage4()" id="image4" height="300" width="200">
+			</div>
+			<div class="yellow box center-img">
+				<img class="contain-img pulse" src="images/ratchet.png" onclick="changeImage5()" id="image5" height="300" width="300">
+			</div>
+			<div class="aqua-blue box center-img">
+				<img class="contain-img pulse" src="images/spongebob.png" onclick="changeImage6()" id="image6" height="300" width="300">
+			</div>
+		</div>
+		<audio src="sounds/samusfanfare.mp3" type="audio/mp3" id="samus-sound"></audio>
+		<audio src="sounds/transformsound.mp3" type="audio/mp3" id="optimus-sound"></audio>
+		<audio src="sounds/powerupsound.mp3" type="audio/mp3" id="goku-sound"></audio>
+		<audio src="sounds/repulsorsound.mp3" type="audio/mp3" id="ironman-sound"></audio>
+		<audio src="sounds/boltsound.mp3" type="audio/mp3" id="ratchet-sound"></audio>
+		<audio src="sounds/bubblesound.mp3" type="audio/mp3" id="spongebob-sound"></audio>
+		<script src="script.js"></script>
+	</body>
+</html>
